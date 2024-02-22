@@ -7,12 +7,12 @@ export default defineSiteConfig({
   description: '要热爱生活啊！',
   author: {
     name: 'YangRan',
-    avatar: 'http://localhost:4860/images/Yr.jpg',
+    avatar: 'https://redcrew.cn/images/Yr.jpg',
     status: {
       emoji: '😣',
     },
   },
-  url: 'http://localhost:4860',
+  url: 'https://redcrew.cn',
   mediumZoom: { enable: true },
   social: [
     /* {

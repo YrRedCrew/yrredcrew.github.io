@@ -4,8 +4,7 @@ date: 2023-01-01
 updated: 2023-01-01
 categories: Datacom
 tags:
-  - Datacom
-top: 1
+  - 技术
 ---
 
 # OSFP概述
