@@ -7,12 +7,12 @@ export default defineSiteConfig({
   description: '要热爱生活啊！',
   author: {
     name: 'YangRan',
-    avatar: 'https://yrredcrew.github.io/images/Yr.jpg',
+    avatar: 'https://redcrew.cn/images/Yr.jpg',
     status: {
       emoji: '😣',
     },
   },
-  url: 'https://yrredcrew.github.io',
+  url: 'https://redcrew.cn/',
   mediumZoom: { enable: true },
   social: [
     /* {
@@ -103,7 +103,7 @@ export default defineSiteConfig({
     enable: true,
     title: '我很可爱，请给我钱！',
     methods: [
-      {
+      /* {
         name: '支付宝',
         url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
         color: '#00A3EE',
@@ -120,7 +120,7 @@ export default defineSiteConfig({
         url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
-      },
+      }, */
     ],
   },
 })
