@@ -3,8 +3,8 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'YrRedCrew',
-  subtitle: 'All at sea.',
-  description: '现实与实现',
+  subtitle: '现实与实现',
+  description: '生命可以违抗一切 但唯独不能违抗岁月',
   author: {
     name: 'Yr',
     avatar: 'https://redcrew.cn/images/Yr.jpg',
@@ -123,4 +123,9 @@ export default defineSiteConfig({
       }, */
     ],
   },
+  
+  encrypt: {
+    enable: true,
+  }
 })
+
