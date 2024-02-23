@@ -7,7 +7,7 @@ tags:
   - Datacom
 ---
 
-# OSFP概述
+## OSFP概述
 
 - Open Shortest Path First，开放最短路径优先
 - 典型的链路状态路由协议，是目前业内使用非常广泛的IGP协议之一。
@@ -28,18 +28,18 @@ tags:
 - 支持手工汇总
 <!-- more -->
 
-# OSPF核心工作流程
+## OSPF核心工作流程
 >链路状态工作流程
 1.  发现并建立邻居
 2.  邻居之间交互链路状态信息并同步LSDB（链路状态数据库、地图）
 3.  使用SPF算法计算到每个目标网络的最短距离
 4.  生成路由表项加载路由表中
 
-# OSPF三张表
+## OSPF三张表
 - **邻居表**：记录所有邻居信息
 - **链路状态数据库表（LSDB）**：记录所有链路状态信息
 - **路由表**：记录最佳路由
-# OSPF报文结构和类型
+## OSPF报文结构和类型
 > 封装于IP协议之上，IP协议号 = 89
 
 | ***数据包类型*** |             ***备注***             |
@@ -52,7 +52,7 @@ tags:
 
 ![](http://192.168.100.7/image/b2994f4cb2682d16e0be24cb335494b7.png)
 
-# OSPF状态机制
+## OSPF状态机制
 
 |***状态***|***备注***|
 |:---:|:---:|
@@ -68,7 +68,7 @@ tags:
 ![](http://192.168.100.7/image/611f99ee0655c32c287c650ac84969dd.png)
 
 
-# OSPF邻居建立条件
+## OSPF邻居建立条件
 
 |       ***条件***       |          ***要求***          |
 | :------------------: | :------------------------: |
@@ -82,14 +82,14 @@ tags:
 |      **Option**      |            一致            |
 |     **静默端口**     |           未开启           |
 
-# OSPF工作流程（数据包和状态切换过程）
+## OSPF工作流程（数据包和状态切换过程）
 ![](http://192.168.100.7/image/ba8bb46a3ba16a90765830137baf94af.png)
 ![](http://192.168.100.7/image/c8df4baf4b8d0bf00b1dff8b7e0a5e8c.png)
 
 ![](http://192.168.100.7/image/ea04332907d2997ecdf7cb265a0f943f.png)
 ![](http://192.168.100.7/image/2dc29b83b6cf30314aa106bc651ce752.png)
 
-# OSPF邻居维护时间
+## OSPF邻居维护时间
 
 -   **缺省情况下，** P2P、Broadcast类型接口的OSPF邻居失效时间为40秒，NBMA类型接口的OSPF邻居失效时间为120秒。
 -   **OSPF邻居的失效时间是指：** 在该时间间隔内，若未收到邻居的Hello报文，就认为该邻居已失效。运行OSPF接口上的邻居失效时间dead interval必须大于发送Hello报文的时间间隔hello interval，且同一网段上的设备的dead interval值也必须相同。缺省情况下，邻居失效时间为发送Hello报文时间间隔的4倍。
@@ -100,7 +100,7 @@ tags:
 
  
 
-# LSA类型
+## LSA类型
 
 >Link State Advertisement，链路状态宣告（路况信息）
 
@@ -111,49 +111,49 @@ tags:
 -   LS Age、Sequence Number、Checksum用于判断LSA的新旧
 
 
-## Router-LSA（1类LSA）
+### Router-LSA（1类LSA）
 - 由每台OSPF路由生成。
 - 描述了该路由器直连接口的信息。
 - 只能在所属的区域内泛洪。
 
-## Network-LSA（2类LSA） 
+### Network-LSA（2类LSA） 
 - 由DR产生。
 - 描述本网段的链路状态（所有与DR建立邻接关系的路由器+掩码）
 - 只能在所属的区域内泛洪。
 
-## Network-Summary-LSA（3类LSA）
+### Network-Summary-LSA（3类LSA）
 -   由ABR产生。
 -   用于向一个区域通告到达另一个区域的路由。
 
 
-## AS-External-LSA（5类LSA）
+### AS-External-LSA（5类LSA）
 - 由ASBR产生。
 - 描述到达AS外部的路由。
 - 会被通告到所有的区域（除了Stub区域和NSSA区域）。
 - 类型Type-1计算内部开销，类型Type-2忽略内部开销
 
-## ASBR-Summary-LSA（4类LSA）
+### ASBR-Summary-LSA（4类LSA）
 - 由ABR产生。
 - 描述到ASBR的路由。
 - 通告给除ASBR所在区域的其它相关区域。
 
 
 
-# 特殊区域
+## 特殊区域
 
-## Totally Stub
+### Totally Stub
 - 完全末节，屏蔽 LSA 3/4/5
 - 域内不能有ASBR，不能是区域0，不能有虚链路
 - 除了ABR向该区域内发送一条LSA 3的缺省路由
 
-## Totally NSSA
+### Totally NSSA
 
 - 完全不是那么末节的区域，屏蔽 LSA 3/4/5
 - 但区域内允许有ASBR（即打破了末节规则），因此为了传递由，该区域内使用LSA 7代替LSA 5，到其它正常区域再转换成LSA 5
 - 该区域ABR会发送一条LSA 3和LSA 7的缺省路由
 
 
-# OSPF域间路由防环机制
+## OSPF域间路由防环机制
 
 -   **只允许：** ABR在骨干区域和非骨干区域间发布3类LSA。
 -   **不允许：** ABR直接在两个非骨干区域间发布3类LSA。
@@ -162,9 +162,9 @@ tags:
 -   ABR从非骨干区域收到的3类LSA不能用于SPF计算（仅数据库保留）。
 
 
-# LSA处理原则
+## LSA处理原则
 
-## LS Age
+### LS Age
 
 -   单位秒，随时间而增长，越小代表该LSA越新。
 -   一条LSA在向外泛洪之前，LS Age的值需要增加InfTransDelay（1秒，该值可以在端口上设置，表示在链路上传输的延迟）。
@@ -173,69 +173,69 @@ tags:
 -   如果路由器希望从网络中删除一条自己此前生成的LSA，则重新生成该条LSA的一个实例，将LS Age设置为Max Age即可。
 -   如果路由器收到一条LS Age设置为Max Age的LSA，则从LSDB中删除此LSA（如果LSDB中存在此LSA）。
 
-## LSA多实例比较规则
+### LSA多实例比较规则
 
 
 ![](http://192.168.100.7/image/f4844f6e1c0ff2e3abb9cea35f6c9dde.png)
 
 **PS：** Age课件于RFC文档逻辑相反。
 
-# 命令解析：
+## 命令解析：
 
 ```php
-# 创建OSPF进程，手动配置RID
+## 创建OSPF进程，手动配置RID
 ospf 1 router-id 1.1.1.1
-# 配置区域
+## 配置区域
  area 0 | 0.0.0.0
-# 宣告网络，即指定运行OSPF的接口
+## 宣告网络，即指定运行OSPF的接口
 network 192.168.0.0 0.0.0.255	
-# 调整带宽参考值，默认=100Mbps
+## 调整带宽参考值，默认=100Mbps
 bandwidth-reference 1000
 
-# 显示OSPF邻居信息
+## 显示OSPF邻居信息
 display ospf peer {brief}
-# 修改Hello包发送间隔
+## 修改Hello包发送间隔
 ospf timer hello 10	
-# 修改Hello包超时时间
+## 修改Hello包超时时间
 ospf timer dead 40
-# 修改OSPF接口优先级，默认=1
+## 修改OSPF接口优先级，默认=1
 ospf dr-priority 100
-# 修改OSPF接口开销
+## 修改OSPF接口开销
 ospf cost 10
-# 显示OSPF接口信息
+## 显示OSPF接口信息
 display ospf interface g0/0/1
-# 重启OSPF进程
+## 重启OSPF进程
 reset ospf process
 
-# 发布缺省路由
+## 发布缺省路由
 default-route-advertise [always] //always：不需要路由表事先存在缺省路由强制发布
 
 
 
-# 特殊区域
-# 配置区域为Stub，在区域内所有路由器配置
+## 特殊区域
+## 配置区域为Stub，在区域内所有路由器配置
 stub
-# 禁止ABR向Stub区域内发送Type-3 LSA
+## 禁止ABR向Stub区域内发送Type-3 LSA
 no-summary
 
-# 配置区域为NSSA，在区域内所有路由器上配置
+## 配置区域为NSSA，在区域内所有路由器上配置
 nssa
-# 禁止ABR向NSSA区域内发送Type-3 LSAs
+## 禁止ABR向NSSA区域内发送Type-3 LSAs
 no-summary
-# 在ASBR上产生缺省的Type7 LSA到NSSA区域。
+## 在ASBR上产生缺省的Type7 LSA到NSSA区域。
 default-route-advertise
-# 在ABR上，无论路由表中是否存在缺省路由0.0.0.0/0，都会产生Type7 LSA缺省路由。
-# 在ASBR上，只有当路由表中存在缺省路由0.0.0.0/0，才会产生Type7 LSA缺省路由。
+## 在ABR上，无论路由表中是否存在缺省路由0.0.0.0/0，都会产生Type7 LSA缺省路由。
+## 在ASBR上，只有当路由表中存在缺省路由0.0.0.0/0，才会产生Type7 LSA缺省路由。
 
 
-# 路由汇总
-# 配置ABR汇总区域间路由
+## 路由汇总
+## 配置ABR汇总区域间路由
 abr-summary 192.168.0.0 255.255.252.0
-# 配置ASBR汇总外部路由
+## 配置ASBR汇总外部路由
 asbr-summary 192.168.0.0 255.255.252.0
 ```
 
-# 总结
+## 总结
 | ***LSA类型*** | ***英文名称***  |   ***中文名称***   |
 |:-------------:|:---------------:|:------------------:|
 |   **Type1**   |     Router      |       路由器       |
@@ -276,8 +276,3 @@ asbr-summary 192.168.0.0 255.255.252.0
 
 ---
 #datacom
-
-
-
-
-

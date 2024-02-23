@@ -8,21 +8,21 @@ tags:
   - Linux
 ---
 
-# 需求
+## 需求
 - OpenWrt没有自动封禁IP的功能，在GitHub找到遍历Log封禁IP脚本。
 
-## 个性化需求
+### 个性化需求
 - 添加封禁IP脚本`DenyPwdHack.sh`（无邮件通知，且遍历logread系统日志。导致IP存在就会封禁无法过期删除。）
 - 配置封禁IP脚本`DenyPwdHack.sh`的遍历logread系统日志最后100行。
 - 添加封禁IP脚本`DenyPwdHack.sh`的封禁IP通知发送至邮箱。
 <!-- more -->
 
-## 安装邮件通知功能
+### 安装邮件通知功能
 - OpenWrt安装msmtp、mutt。
 - msmtp添加发送邮件功能。
 - mutt邮件客户端，使邮件正常发送，对端不误报垃圾邮件。
 
-### 配置msmtp
+#### 配置msmtp
 - `vim /etc/msmtprc`
 
 ```php
@@ -53,7 +53,7 @@ logfile /etc/msmtp.log
 ```
 
 
-### 配置mutt
+#### 配置mutt
 - `vim /etc/Muttrc`
 
 ```php
@@ -74,10 +74,10 @@ set realname="OpenWrt" //发件方名称
 set editor="vim"
 ```
 
-# 项目地址
+## 项目地址
 - [项目地址](https://github.com/xwsnet/deny-ssh-password-attack)
 
-# 初始源码
+## 初始源码
 
 ```php
 #!/bin/ash
@@ -187,12 +187,12 @@ fi
 
 ```
 
-# 实际使用源码（邮件通知BUG，后续修复）
+## 实际使用源码（邮件通知BUG，后续修复）
 
 
-## 添加修改自定义功能
+### 添加修改自定义功能
 
-### 读取logread系统日志最后100行
+#### 读取logread系统日志最后100行
 
 ```php
 #!/bin/bash
@@ -216,7 +216,7 @@ fi
 
 
 
-## DenyPwdHack.sh（集成自定义功能版）
+### DenyPwdHack.sh（集成自定义功能版）
 
 ```php
 #!/bin/ash
@@ -341,36 +341,36 @@ fi
 ```
 
 
-## 添加计划任务
+### 添加计划任务
 
 - `*/10 * * * * /root/DenyPwdHack.sh`
 
 
-## 查询
+### 查询
 
 
-### 封堵日志
+#### 封堵日志
 
 - `cat DenyPwdHack.log`
 
-### 查询iptables条目
+#### 查询iptables条目
 
 - `iptables -L DenyPwdHack`
 
-### 删除链
+#### 删除链
 
 - `iptables -D DenyPwdHack 1`
 
-# 邮件通知BUG修复
+## 邮件通知BUG修复
 - 运行一段发现，在无封禁IP时，任然触发邮件通知。
 
 
-## 改进
+### 改进
 - 改变增加iptables DenyPwdHack条目的日志位置。
 - shell判断文件MD5是否有变化。
 
 
-## 检测MD5脚本
+### 检测MD5脚本
 
 ```php
 #!/bin/bash
@@ -389,7 +389,7 @@ fi
 ```
 
 
-## DenyPwdHack.sh（改进后命令）
+### DenyPwdHack.sh（改进后命令）
 
 ```php
 #!/bin/bash
