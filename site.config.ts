@@ -96,7 +96,7 @@ export default defineSiteConfig({
   ],
 
   search: {
-    enable: false,
+    enable: true,
   },
 
   sponsor: {
@@ -127,6 +127,6 @@ export default defineSiteConfig({
   // 加密选项
   encrypt: {
     enable: true,
-  }
+  },
 })
 
