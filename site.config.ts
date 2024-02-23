@@ -6,7 +6,7 @@ export default defineSiteConfig({
   subtitle: 'All at sea.',
   description: '要热爱生活啊！',
   author: {
-    name: 'YangRan',
+    name: 'Yr',
     avatar: 'https://redcrew.cn/images/Yr.jpg',
     status: {
       emoji: '👻',
