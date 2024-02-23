@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '',
+      title: '⿻静默使然⿻',
       cloud: {
         enable: true,
       },
