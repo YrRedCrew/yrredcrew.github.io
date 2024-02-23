@@ -4,7 +4,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'YrRedCrew',
   subtitle: 'All at sea.',
-  description: '要热爱生活啊！',
+  description: '现实与实现',
   author: {
     name: 'Yr',
     avatar: 'https://redcrew.cn/images/Yr.jpg',

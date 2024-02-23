@@ -1,7 +1,7 @@
 ---
 title: OpenWrt自动封禁爆破IP
-date: 2024-02-24
-updated: 2023-02-24
+date: 2022-09-20
+updated: 2023-09-20
 categories: Yr的学习
 tags:
   - OpenWrt
