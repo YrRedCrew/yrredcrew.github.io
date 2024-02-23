@@ -4,7 +4,7 @@ date: 2023-01-01
 updated: 2023-01-01
 categories: Yr的学习
 tags:
-  - 技术
+  - Datacom
 ---
 
 # OSFP概述
