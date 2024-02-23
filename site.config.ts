@@ -123,7 +123,8 @@ export default defineSiteConfig({
       }, */
     ],
   },
-  
+
+  // 加密选项
   encrypt: {
     enable: true,
   }
