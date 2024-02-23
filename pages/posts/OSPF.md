@@ -2,7 +2,7 @@
 title: OSFP
 date: 2023-01-01
 updated: 2023-01-01
-categories: Datacom
+categories: Yr的学习
 tags:
   - 技术
 ---
