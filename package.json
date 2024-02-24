@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg",
+    "build": "npm run fuse && npm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
+    "fuse": "valaxy fuse",
     "rss": "valaxy rss",
     "serve": "vite preview"
   },
@@ -17,22 +18,5 @@
   },
   "devDependencies": {
     "typescript": "^5.3.3"
-  }
-}
-
-{
-  "name": "yun-demo",
-  "valaxy": {
-    "theme": "yun"
-  },
-  "scripts": {
-    "build": "npm run fuse && npm run build:ssg",
-    "build:ssg": "valaxy build --ssg",
-    "fuse": "valaxy fuse",
-    "rss": "valaxy rss"
-  },
-  "dependencies": {
-    "valaxy": "latest",
-    "valaxy-theme-yun": "latest"
   }
 }
