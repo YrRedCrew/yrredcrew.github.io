@@ -94,8 +94,18 @@ export default defineSiteConfig({
       color: 'var(--va-c-text)',
     },
   ],
-
+  // 搜索功能
   search: {
+    enable: true,
+    type: 'fuse',
+  },
+
+  // 评论功能
+  comment: {
+    enable: true,
+  },
+  // 字数与阅读时间统计功能
+  statistics: {
     enable: true,
   },
 
@@ -124,7 +134,7 @@ export default defineSiteConfig({
     ],
   },
 
-  // 加密选项
+  // 加密功能
   encrypt: {
     enable: true,
   },
