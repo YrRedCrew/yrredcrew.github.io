@@ -42,7 +42,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2016,
       beian: {
         enable: true,
-        icp: '等等就去备案',
+        icp: 'wait wait wait',
       },
     },
   },

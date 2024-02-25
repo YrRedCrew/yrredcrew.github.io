@@ -1,7 +1,7 @@
 <template>
 	<footer class="va-footer p-4 text-$va-c-text-light" text="center sm">
 		<div class="beian" m="y-2">
-			<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">等等就去备案</a>
+			<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">wait wait wait</a>
 		</div>
 		<div class="copyright flex justify-center items-center gap-2" p="1">
 			<span> © 2016 - 2024</span>
