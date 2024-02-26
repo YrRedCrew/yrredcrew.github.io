@@ -48,9 +48,9 @@ declare module 'vue-router/auto/routes' {
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
-    '/posts/成都情歌': RouteRecordInfo<'/posts/成都情歌', '/posts/成都情歌', Record<never, never>, Record<never, never>>,
-    '/posts/这里开始': RouteRecordInfo<'/posts/这里开始', '/posts/这里开始', Record<never, never>, Record<never, never>>,
-    '/posts/OpenWrt自动封禁爆破IP': RouteRecordInfo<'/posts/OpenWrt自动封禁爆破IP', '/posts/OpenWrt自动封禁爆破IP', Record<never, never>, Record<never, never>>,
+    '/posts/chengdu-song': RouteRecordInfo<'/posts/chengdu-song', '/posts/chengdu-song', Record<never, never>, Record<never, never>>,
+    '/posts/OpenWrt-ban-ip': RouteRecordInfo<'/posts/OpenWrt-ban-ip', '/posts/OpenWrt-ban-ip', Record<never, never>, Record<never, never>>,
+    '/posts/start-here': RouteRecordInfo<'/posts/start-here', '/posts/start-here', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
