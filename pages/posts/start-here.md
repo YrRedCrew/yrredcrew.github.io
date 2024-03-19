@@ -20,7 +20,7 @@ top: 1
 
 然后看着这套~~傻逼~~麻烦的操作，想到了在Window上实现文件镜像“mklink”~~可以在CMD实现，一个字麻烦~~然后找到一个软件[LSE(linkshellextension)](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html)直接右键实现。
 
-这里我用到“LSE”的“目录连接点”将posts文件夹链接到了Obsidian的同步文件夹。实现了在Obsidian编辑文件镜像同步更改。这样就试下了IDE我只是在每次想起时去推送下即可。~~大快人心~~
+这里我用到“LSE”的“目录连接点”将posts文件夹链接到了Obsidian的同步文件夹。实现了在Obsidian编辑文件镜像同步更改。这样就实现了我只是在每次想起时去IDE推送下即可。~~大快人心~~
 
 
 ::: tip
