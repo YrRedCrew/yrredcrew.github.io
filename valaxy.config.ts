@@ -27,15 +27,15 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '我的小伙伴们',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
+        icon: 'i-ri-links-line',
         color: 'dodgerblue',
       },
-      {
+      /* {
         name: '喜欢的女孩子',
         url: '/girls/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
-      },
+      }, */
     ],
 
     footer: {

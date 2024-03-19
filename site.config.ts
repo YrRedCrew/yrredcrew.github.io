@@ -82,10 +82,22 @@ export default defineSiteConfig({
       color: '#0088CC',
     }, */
     {
+      name: '图床',
+      link: 'https://tc.redcrew.cn/',
+      icon: 'i-ri-image-line',
+      color: '#F0BB40;',
+    },
+    {
       name: 'E-Mail',
       link: 'mailto:1144586076@qq.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
+    },
+    {
+      name: 'Zabbix',
+      link: 'https://zabbix.redcrew.cn/',
+      icon: 'i-ri-bar-chart-2-line',
+      color: '#D40000',
     },
     {
       name: 'Travelling',
