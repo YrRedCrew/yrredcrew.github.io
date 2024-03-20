@@ -6,7 +6,7 @@ export default defineSiteConfig({
   subtitle: '现实与实现',
   description: '生命可以违抗一切 但唯独不能违抗岁月',
   author: {
-    name: 'Yr',
+    name: 'YangRan',
     avatar: 'https://redcrew.cn/images/Yr.jpg',
     status: {
       emoji: '👻',

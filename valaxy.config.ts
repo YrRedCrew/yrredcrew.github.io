@@ -15,6 +15,9 @@ export default defineValaxyConfig<UserThemeConfig>({
   theme: 'yun',
 
   themeConfig: {
+ /*    colors: {
+      primary: '#6640ff',
+    }, */
     banner: {
       enable: true,
       title: '⿻热爱生活⿻',
