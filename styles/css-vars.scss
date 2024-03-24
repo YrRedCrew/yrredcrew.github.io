@@ -1,16 +1,28 @@
 // you can custom css vars here
-.post-tag {
-    white-space: nowrap;
-    color: rgb(153, 153, 153)
-}
-
 :root {
     /* 背景图片 */
 /*     --yun-bg-img: url("https://api.dujin.org/pic/fengjing"); */
     /* 侧边栏背景图片 */
     /* --yun-sidebar-bg-img: url("https://api.dujin.org/pic/fengjing"); */
    }
-
+   
+    /* 歌曲模块标题颜色 */
 .aplayer .aplayer-info .aplayer-music .aplayer-title {
     color: #666666;
+}
+
+    /* tag标签颜色 */
+.post-tag {
+    white-space: nowrap;
+    color: rgb(153, 153, 153)
+}
+
+    /* 主页竖线宽度 */
+.vertical-line-top, .vertical-line-bottom {
+    width: 0px!important;
+}
+    /* 主页主图标设置 */
+.i-ri-arrow-down-s-line, [i-ri-arrow-down-s-line=""] {
+    width: 10.2em!important;
+    height: 21.2em!important;
 }

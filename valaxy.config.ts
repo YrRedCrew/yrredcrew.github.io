@@ -20,7 +20,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     }, */
     banner: {
       enable: true,
-      title: '⿻热爱生活⿻',
+      title: '',
       cloud: {
         enable: true,
       },
