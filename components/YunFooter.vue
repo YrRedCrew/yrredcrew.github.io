@@ -8,10 +8,10 @@
 			<a class="inline-flex animate-pulse" href="https://redcrew.cn" target="_blank" title="YrRedCrew">
 				<div class="i-ri-cloud-line"></div>
 			</a>
-			<span>Yr</span>
+			<span>YangRan</span>
 		</div>
-		<div class="powered" m="2">
-			<span>由 <a href="https://github.com/YunYouJun/valaxy" target="_blank" rel="noopener">Valaxy</a> v0.18.1 驱动</span> | <span>主题 - <a href="https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun" title="valaxy-theme-yun" target="_blank">Yun</a> v0.18.1</span>
-		</div>
+		<!-- <div class="powered" m="2">
+			<span>由 <a href="https://github.com/YunYouJun/valaxy" target="_blank" rel="noopener">Valaxy</a> v0.18.5 驱动</span> | <span>主题 - <a href="https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun" title="valaxy-theme-yun" target="_blank">Yun</a> v0.18.5</span>
+		</div>-->
 	</footer>
 </template>
