@@ -119,7 +119,7 @@ export default defineSiteConfig({
        * @see https://www.fusejs.io/api/options.html#threshold
        * 设置匹配阈值，越低越精确
        */
-      threshold: 0.1,
+      threshold: 0.0,
       /**
        * @default false
        * @see https://www.fusejs.io/api/options.html#ignoreLocation
