@@ -26,3 +26,34 @@
     width: 10.2em!important;
     height: 21.2em!important;
 }
+
+    /* 文章内代码颜色 */
+html.dark {
+    --smc-c-text-light: #53dfdd;
+}
+
+    /* 文章内标题颜色 */
+.markdown-body h1 {
+    color: #53dfdd;
+}
+.markdown-body h2 {
+    color: #00e1ff;
+}
+.markdown-body h3 {
+    color: #00ccff;
+}
+.markdown-body h4 {
+    color: #00b7ff;
+}
+.markdown-body h5 {
+    color: #00a2ff;
+}
+.markdown-body h6 {
+    color: #008cff;
+}
+
+    /* 文章内链接颜色 */
+.markdown-body a {
+    color: #00A6FF;
+    text-decoration: underline;
+}

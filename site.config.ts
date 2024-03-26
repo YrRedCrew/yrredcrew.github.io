@@ -7,7 +7,7 @@ export default defineSiteConfig({
   description: '生命可以违抗一切 但唯独不能违抗岁月',
   author: {
     name: 'YangRan',
-    avatar: 'https://redcrew.cn/images/Yr.jpg',
+    avatar: 'https://r2.redcrew.cn/image/dc635dc204a51200c7e15d3cbd0a9e7f.JPG',
     status: {
       emoji: '👻',
     },

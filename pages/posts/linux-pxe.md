@@ -230,11 +230,13 @@ Fist平台尽量安装在服务器上，因这次安装时安装在win10上，�
 配置HDM管理IP。由于是本地配置，没有留下照片截图，配置很简单。
 
 ### Fist添加管理服务器
-添加服务器![](https://tc.redcrew.cn/image/fa74f0dc41e1112a701ca4713629f066.png)
-### 上传系统镜像![](https://tc.redcrew.cn/image/190d9dd5918088d2fc99338150edcc5e.png)
-### 配置服务器模板![](https://tc.redcrew.cn/image/98293241f42a55a428dd627ce16871e9.png)
-![](https://tc.redcrew.cn/image/354f3b8ddef9242fb3f9378c1e8cc826.png)
-![](https://tc.redcrew.cn/image/04f0f1bb224fa3b608a1aeb4967217cb.png)
+![](https://r2.redcrew.cn/image/fa74f0dc41e1112a701ca4713629f066.png)
+### 上传系统镜像
+![](https://r2.redcrew.cn/image/190d9dd5918088d2fc99338150edcc5e.png)
+### 配置服务器模板
+![](https://r2.redcrew.cn/image/98293241f42a55a428dd627ce16871e9.png)
+![](https://r2.redcrew.cn/image/354f3b8ddef9242fb3f9378c1e8cc826.png)
+![](https://r2.redcrew.cn/image/04f0f1bb224fa3b608a1aeb4967217cb.png)
 ### 服务器模板应用
 - 等待安装完成即可
 
