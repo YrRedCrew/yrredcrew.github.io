@@ -5,6 +5,7 @@ export default defineSiteConfig({
   title: 'YrRedCrew',
   subtitle: '现实与实现',
   description: '生命可以违抗一切 但唯独不能违抗岁月',
+  codeHeightLimit: 300,
   author: {
     name: 'YangRan',
     avatar: 'https://r2.redcrew.cn/image/dc635dc204a51200c7e15d3cbd0a9e7f.JPG',
@@ -168,5 +169,6 @@ export default defineSiteConfig({
   encrypt: {
     enable: true,
   },
+  
 })
 
