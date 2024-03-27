@@ -31,6 +31,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/chengdu-song': RouteRecordInfo<'/posts/chengdu-song', '/posts/chengdu-song', Record<never, never>, Record<never, never>>,
     '/posts/linux-bond': RouteRecordInfo<'/posts/linux-bond', '/posts/linux-bond', Record<never, never>, Record<never, never>>,
     '/posts/linux-pxe': RouteRecordInfo<'/posts/linux-pxe', '/posts/linux-pxe', Record<never, never>, Record<never, never>>,
+    '/posts/obsidian-use': RouteRecordInfo<'/posts/obsidian-use', '/posts/obsidian-use', Record<never, never>, Record<never, never>>,
     '/posts/openwrt-ban-ip': RouteRecordInfo<'/posts/openwrt-ban-ip', '/posts/openwrt-ban-ip', Record<never, never>, Record<never, never>>,
     '/posts/start-here': RouteRecordInfo<'/posts/start-here', '/posts/start-here', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,

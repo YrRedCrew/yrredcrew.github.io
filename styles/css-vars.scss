@@ -32,6 +32,11 @@ html.dark {
     --smc-c-text-light: #53dfdd;
 }
 
+    /* 文章内加粗字体颜色 */
+.markdown-body strong {
+    color: #E91E63;
+}
+
     /* 文章内标题颜色 */
 .markdown-body h1 {
     color: #00f7ff;
