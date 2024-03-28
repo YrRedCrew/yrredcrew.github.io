@@ -168,8 +168,8 @@ $("table").wrap("<div class='table-area'></div>");
 
 ### Obsidian界面效果
 
-这个效果自己相当满意，当然也从使用Obsidian时的默认->AnuPpuccin
-->Minimal->Aura一路捣鼓~~披荆斩棘~~弄成这样。
+这个效果自己相当满意，当然也从使用Obsidian时的默认->Minimal->AnuPpuccin
+->Aura一路捣鼓~~披荆斩棘~~弄成这样。
 
 ![](https://r2.redcrew.cn/image/928d3fba24f9d2df897e9800ddbfe187.png)
 
