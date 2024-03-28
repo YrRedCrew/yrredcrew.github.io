@@ -4,8 +4,8 @@ date: 2022-09-20
 updated: 2023-09-20
 categories: Yr的学习
 tags:
-  - OpenWrt
-  - Linux
+  - openwrt
+  - linux
 ---
 
 ## 需求
@@ -514,8 +514,6 @@ if [[ $md5_old != $md5_new ]];then
   echo "$DenyIpList" | mutt -s "IP封禁提醒" xxxxxxxx@qq.com
 fi
 ```
-
-
 
 ---
 #openwrt #linux 

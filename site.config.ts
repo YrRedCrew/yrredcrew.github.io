@@ -4,7 +4,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'YrRedCrew',
   subtitle: '现实与实现',
-  description: '生命可以违抗一切 但唯独不能违抗岁月',
+  description: '生命可以违抗一切，但唯独不能违抗岁月。',
   codeHeightLimit: 300,
   author: {
     name: 'YangRan',
@@ -23,8 +23,8 @@ export default defineSiteConfig({
       color: 'orange',
     }, */
     /* {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      name: 'QQ群',
+      link: '',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     }, */
@@ -36,49 +36,49 @@ export default defineSiteConfig({
     },
     /* {
       name: '微博',
-      link: 'https://weibo.com/jizhideyunyoujun',
+      link: '',
       icon: 'i-ri-weibo-line',
       color: '#E6162D',
     }, */
     /* {
       name: '豆瓣',
-      link: 'https://www.douban.com/people/yunyoujun/',
+      link: '',
       icon: 'i-ri-douban-line',
       color: '#007722',
     }, */
     /* {
       name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=247102977',
+      link: '',
       icon: 'i-ri-netease-cloud-music-line',
       color: '#C20C0C',
     }, */
     /* {
       name: '知乎',
-      link: 'https://www.zhihu.com/people/yunyoujun/',
+      link: '',
       icon: 'i-ri-zhihu-line',
       color: '#0084FF',
     }, */
     /* {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: '',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     }, */
     /* {
       name: '微信公众号',
-      link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
+      link: '',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     }, */
     /* {
       name: 'Twitter',
-      link: 'https://twitter.com/YunYouJun',
+      link: '',
       icon: 'i-ri-twitter-line',
       color: '#1da1f2',
     }, */
     /* {
       name: 'Telegram Channel',
-      link: 'https://t.me/elpsycn',
+      link: '',
       icon: 'i-ri-telegram-line',
       color: '#0088CC',
     }, */

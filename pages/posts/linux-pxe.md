@@ -4,7 +4,7 @@ date: 2022-11-01
 updated: 2022-11-01
 categories: Yr的学习
 tags:
-  - Linux
+  - linux
 ---
 ## PXE批量系统安装
 ### 实验环境搭建
@@ -250,6 +250,5 @@ Ks文件需要使用H3C的模板（因需要iFist驱动、Raid卡驱动相关命
 
 硬Raid建立好后有逻辑盘名称，Fist服务器配置模板选择后，Ks文件分区可以写 ' --ondisk=$disk '（自动选择给出的逻辑盘名称变量）
 
-
-
+---
 #linux 
