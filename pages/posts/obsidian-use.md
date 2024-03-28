@@ -43,7 +43,7 @@ tags:
 
 >Aurav1.71 Style Setting的设置文件
 
-```json
+```json fold file=style-settings.json
 {
   "aura@@aura-accent": "color-default",
   "aura@@aura-colorshemes": "aura-colorschemes-dracula",
@@ -72,7 +72,7 @@ tags:
 
 >Obsidian全局CSS的设置文件
 
-```css
+```css fold file=Yr-userstyle_obsidian_v1.css
 /*相关字体颜色*/
 .theme-dark {
 	--bold-color: #E91E63;
@@ -165,6 +165,7 @@ $("table").wrap("<div class='table-area'></div>");
 }
 
 ```
+
 ### Obsidian界面效果
 
 这个效果自己相当满意，当然也从使用Obsidian时的默认->AnuPpuccin
@@ -196,7 +197,17 @@ $("table").wrap("<div class='table-area'></div>");
 [Awesome Image](https://github.com/AwesomeDog/obsidian-awesome-image)我主要使用他的图片预览功能，可以避免Obsidian无法放大缩小查看图片的缺陷。
 
 ### Mindmap NextGen
+
 [Mindmap NextGen](https://github.com/james-tindal/obsidian-mindmap-nextgen)看标题也知道是干嘛的了，使用 [Markmap](https://markmap.js.org/) 以思维导图的形式查看笔记。
+
+### # Codeblock Customizer
+
+[# Codeblock Customizer](https://github.com/mugiwara85/CodeblockCustomizer)可以充分自定义代码块样式，其实我使用到的功能仅限于当前行高亮显示与半折叠代码块。
+
+🙋‍♂️🌰：
+![](https://r2.redcrew.cn/image/4e53e3bee3ea12e277729fbc6514f9f5.png)
+
+
 
 ---
 #obsidian 

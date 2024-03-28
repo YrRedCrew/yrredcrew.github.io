@@ -33,7 +33,7 @@ top: 1
 ## 装修事宜
 
 因自己~~傻逼~~强迫症站点的前端显示要与Obsidian样式一致，又把两者不同点整改了下。
-1. 站点的文字颜色（黑暗模式~~不用亮色模式~~）与Obsidian包浆的样式（[Obsidian个人使用情况准备写到这里](https://redcrew.cn/obsidian-use)）做到了一致。
+1. 站点的文字颜色（黑暗模式~~不用亮色模式~~）与Obsidian包浆的样式（[Obsidian个人使用情况准备写到这里](https://redcrew.cn/posts/obsidian-use)）做到了一致。
 2. 站点文字代码折叠。
 3. 站点首页简化。
 4. 站点搜索精确度。
