@@ -202,7 +202,7 @@ $("table").wrap("<div class='table-area'></div>");
 
 ### Codeblock Customizer
 
-[# Codeblock Customizer](https://github.com/mugiwara85/CodeblockCustomizer)可以充分自定义代码块样式，其实我使用到的功能仅限于当前行高亮显示与半折叠代码块。
+[Codeblock Customizer](https://github.com/mugiwara85/CodeblockCustomizer)可以充分自定义代码块样式，其实我使用到的功能仅限于当前行高亮显示与半折叠代码块。
 
 🙋‍♂️🌰：
 ![](https://r2.redcrew.cn/image/4e53e3bee3ea12e277729fbc6514f9f5.png)
