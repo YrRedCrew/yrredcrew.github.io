@@ -100,12 +100,12 @@ export default defineSiteConfig({
       icon: 'i-ri-bar-chart-2-line',
       color: '#D40000',
     },
-    {
+    /* {
       name: '飞机',
-      link: 'https://sakuracat-01.com/user/#/register?code=AwftpJ9f',
+      link: '',
       icon: 'i-ri-send-plane-fill',
       color: '#1da1f2',
-    },
+    }, */
     {
       name: 'Travelling',
       link: 'https://www.travellings.cn/go.html',
