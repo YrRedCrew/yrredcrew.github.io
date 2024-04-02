@@ -27,12 +27,12 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     pages: [
-      {
+      /* {
         name: '我的小伙伴们',
         url: '/links/',
         icon: 'i-ri-links-line',
         color: 'dodgerblue',
-      },
+      }, */
       /* {
         name: '喜欢的女孩子',
         url: '/girls/',
