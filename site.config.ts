@@ -10,7 +10,7 @@ export default defineSiteConfig({
     name: 'YangRan',
     avatar: 'https://r2.redcrew.cn/image/dc635dc204a51200c7e15d3cbd0a9e7f.JPG',
     status: {
-      emoji: '👻',
+      emoji: '☀️',
     },
   },
   url: 'https://redcrew.cn/',
