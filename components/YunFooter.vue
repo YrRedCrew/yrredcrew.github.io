@@ -10,8 +10,8 @@
 			</a>
 			<span>YangRan</span>
 		</div>
-		<!-- <div class="powered" m="2">
+		<div class="powered" m="2">
 			<span>由 <a href="https://github.com/YunYouJun/valaxy" target="_blank" rel="noopener">Valaxy</a> v0.18.5 驱动</span> | <span>主题 - <a href="https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun" title="valaxy-theme-yun" target="_blank">Yun</a> v0.18.5</span>
-		</div>-->
+		</div>
 	</footer>
 </template>
