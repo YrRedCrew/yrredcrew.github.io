@@ -103,7 +103,7 @@ export default defineSiteConfig({
     {
       name: 'Vault',
       link: 'https://vault.redcrew.cn/',
-      icon: 'i-ri-safe-fill',
+      icon: 'i-ri-safe-line',
       color: '#165CDB',
     }, 
     {
