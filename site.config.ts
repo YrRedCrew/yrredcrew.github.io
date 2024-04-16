@@ -101,6 +101,12 @@ export default defineSiteConfig({
       color: '#D40000',
     },
     {
+      name: 'Vault',
+      link: 'https://vault.redcrew.cn/',
+      icon: 'i-ri-safe-fill',
+      color: '#165CDB',
+    }, 
+    {
       name: '飞机',
       link: 'https://sakuracat-01.com/user/#/register?code=AwftpJ9f',
       icon: 'i-ri-send-plane-fill',
