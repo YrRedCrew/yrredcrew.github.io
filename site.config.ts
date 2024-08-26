@@ -28,12 +28,12 @@ export default defineSiteConfig({
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     }, */
-    {
+    /* {
       name: 'GitHub',
-      link: 'https://github.com/YrRedCrew',
+      link: 'xxxxx',
       icon: 'i-ri-github-line',
       color: '#6e5494',
-    },
+    },*/
     /* {
       name: '微博',
       link: '',
@@ -88,12 +88,12 @@ export default defineSiteConfig({
       icon: 'i-ri-image-line',
       color: '#F0BB40;',
     },
-    {
+    /*{
       name: 'E-Mail',
-      link: 'mailto:1144586076@qq.com',
+      link: 'mailto:xxxxxxx',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
-    },
+    },*/
     {
       name: 'Zabbix',
       link: 'https://zabbix.redcrew.cn/',
