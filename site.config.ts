@@ -1,6 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
+  mode: 'light',
   lang: 'zh-CN',
   title: 'YrRedCrew',
   subtitle: '现实与实现',
