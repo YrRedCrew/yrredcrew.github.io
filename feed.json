@@ -1,0 +1,86 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "YrRedCrew",
+    "home_page_url": "https://redcrew.cn/",
+    "feed_url": "https://redcrew.cn/feed.json",
+    "description": "生命可以违抗一切，但唯独不能违抗岁月。",
+    "icon": "https://r2.redcrew.cn/image/dc635dc204a51200c7e15d3cbd0a9e7f.JPG",
+    "author": {
+        "name": "YangRan",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>前言</h2>\n<p>关于自己文字记录的过程，真的是可以长篇大论。从笔记本<s>纸质的</s>-&gt;记事本<s>TXT</s>-&gt;Office-&gt;OneNote&amp;Notion-&gt;有道云笔记&amp;语雀-&gt;Typora-&gt;Joplin（2021年舍弃）-&gt;Obsidian（至今）</p>\n<p>太过夸张<s>真是一个善变的人</s>甚至还有记录了一篇Joplin与Obsidian对比，当时还在狂吹Joplin，没想到打脸了。Obsidian我希望是自己最后一款笔记应用<s>千万别打脸了</s>，主要是换一个应用得花好几天甚至更长去搬迁美化等等<s>自己醒醒吧时间是珍贵的</s>。</p>\n<p>已这篇记录为证，别在<s>善变了</s>换了。好了，正文开始！</p>\n",
+            "url": "https://redcrew.cn/posts/obsidian-use",
+            "title": "Obsidian使用情况",
+            "date_modified": "2024-03-27T00:00:00.000Z",
+            "date_published": "2024-03-28T00:00:00.000Z",
+            "author": {
+                "name": "YangRan",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>涉猎</h2>\n<p>某一天的早餐时间，浑浑噩噩的刷网页<s>探索稀奇</s>，发现了“云游君”这位有趣的大佬。他的博客让我眼前一亮怎么可以做的的这么舒服<s>审美一致</s>，于是又开始捣鼓了起来。</p>\n",
+            "url": "https://redcrew.cn/posts/start-here",
+            "title": "这里开始",
+            "date_modified": "2024-02-22T00:00:00.000Z",
+            "date_published": "2024-03-19T00:00:00.000Z",
+            "author": {
+                "name": "YangRan",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p><meting-js\n id=\"32807689\"\n server=\"netease\"\n type=\"song\"\n theme=\"#C20C0C\"><br>\n</meting-js></p>\n<center>\n<blockquote>\n<p>词：陈彦坤KE/唐嘉/陈柯右</p>\n</blockquote>\n<blockquote>\n<p>曲：陈彦坤KE/唐嘉/陈柯右</p>\n</blockquote>\n<p>我不知道这是不是RedCrew的最后一首歌</p>\n<p>但坤哥唐嘉永远是我内心最diao的Rap</p>\n<p>祝我坤哥新婚快乐以后生活会越来越好</p>\n<p>我站在1227灯火阑珊的成都</p>\n<p>放空的心情安静下来会有些许感触</p>\n<p>多整理一些感悟放慢追逐的脚步</p>\n<p>或许早就该停在原地调整自己角度</p>\n",
+            "url": "https://redcrew.cn/posts/chengdu-song",
+            "title": "成都情歌",
+            "date_modified": "2013-08-07T00:00:00.000Z",
+            "date_published": "2024-02-23T00:00:00.000Z",
+            "author": {
+                "name": "YangRan",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>需求</h2>\n<ul>\n<li>OpenWrt没有自动封禁IP的功能，在GitHub找到遍历Log封禁IP脚本。</li>\n</ul>\n<h3>个性化需求</h3>\n<ul>\n<li>添加封禁IP脚本<code>DenyPwdHack.sh</code>（无邮件通知，且遍历logread系统日志。导致IP存在就会封禁无法过期删除。）</li>\n<li>配置封禁IP脚本<code>DenyPwdHack.sh</code>的遍历logread系统日志最后100行。</li>\n<li>添加封禁IP脚本<code>DenyPwdHack.sh</code>的封禁IP通知发送至邮箱。</li>\n</ul>\n",
+            "url": "https://redcrew.cn/posts/OpenWrt-ban-ip",
+            "title": "OpenWrt自动封禁爆破IP",
+            "date_modified": "2022-09-20T00:00:00.000Z",
+            "date_published": "2023-09-20T00:00:00.000Z",
+            "author": {
+                "name": "YangRan",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>bond概念</h2>\n<p>将两张网卡绑定，共用一个IP，实现冗余效果。实际上Linux双网卡的绑定模式有7种，而在这里常用的是active-backup，一个设备如果只有一个网卡，那么当这个网卡损坏时设备的网络就会瘫痪。绑定接口的作用就是让多个物理网卡服务于一个IP地址，使得这个网络的抵抗性强。一个设备只能有一个bound接口，配置好以后每个网卡需要一根网线，需要插两个网线，交换机也需要做链路聚合。</p>\n",
+            "url": "https://redcrew.cn/posts/linux-bond",
+            "title": "Linux网卡绑定",
+            "date_modified": "2022-11-01T00:00:00.000Z",
+            "date_published": "2022-11-01T00:00:00.000Z",
+            "author": {
+                "name": "YangRan",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>PXE批量系统安装</h2>\n<h3>实验环境搭建</h3>\n<blockquote>\n<p><a href=\"https://www.bilibili.com/video/BV1QK4y1v7sn?spm_id_from=333.999.0.0&amp;vd_source=f6084efc3a58368dd53ce40762a1514a\">第十九讲</a></p>\n</blockquote>\n<h3>无人值守安装</h3>\n<blockquote>\n<p><a href=\"https://www.bilibili.com/video/BV1ZV411z7Vp?share_source=copy_web&amp;vd_source=58c00d10f6293fd8d6cf9b5061c57f5e\">第二十讲</a></p>\n</blockquote>\n",
+            "url": "https://redcrew.cn/posts/linux-pxe",
+            "title": "Linux系统批量安装",
+            "date_modified": "2022-11-01T00:00:00.000Z",
+            "date_published": "2022-11-01T00:00:00.000Z",
+            "author": {
+                "name": "YangRan",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
