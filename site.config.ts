@@ -106,12 +106,12 @@ export default defineSiteConfig({
       icon: 'i-ri-safe-line',
       color: '#165CDB',
     }, 
-/*     {
+     {
       name: '飞机',
-      link: '',
+      link: 'https://sakura-cat-cdn2.com/register?code=kQTMuCJl',
       icon: 'i-ri-send-plane-fill',
       color: '#1da1f2',
-    },  */
+    },
     {
       name: 'Travelling',
       link: 'https://www.travellings.cn/go.html',
